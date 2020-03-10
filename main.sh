@@ -57,4 +57,4 @@ if [[ -z "$SLACK_MESSAGE" ]]; then
 	export SLACK_MESSAGE="$COMMIT_MESSAGE"
 fi
 
-slack-notify "$@"
+slack-webhook "$@"
