@@ -1,0 +1,9 @@
+name: 'Webhook Slack Notification'
+description: 'This action will send a notification to Slack'
+author: 'Thiago Bernardes'
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
+branding:
+  icon: 'bell'
+  color: 'yellow'
